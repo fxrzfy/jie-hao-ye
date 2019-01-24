@@ -1,0 +1,580 @@
+/*第一屏開始*/
+.swiper-wrapper #one{
+	
+}
+.big{
+    width: 10rem;
+    margin: auto;
+    background: url(../img/one-background.png) no-repeat;
+    height: 100vh!important;
+    position: relative;
+    background-size: 100% 100%;
+    
+}
+.big-two{
+	width: 10rem;
+	height: 100vh;
+	background: url(../img/one-shouji.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+}
+#one .one-ico{
+	position: absolute;
+	top: 0;
+    left: 0;
+}
+#one .one-ico img{
+	width: 1.37rem;
+    height: 3.84rem;
+}
+#one .two-ico{
+	position: absolute;
+	top: 0;
+	left: 2.5rem;
+}
+#one .two-ico img{
+	width: 3.25rem;
+    height: 4.24rem;
+}
+#one .three-ico{
+	position: absolute;
+    top: 0;
+   left: 6rem;
+}
+#one .three-ico img{
+	width: 1.46rem;
+    height: 3.62rem;
+}
+#one .four-ico{
+	position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 11;
+}
+#one .four-ico img{
+	width: 1.8rem;
+    height: 3.92rem;
+}
+#one .bottom-oneico{
+	position: absolute;
+    top: 1.37rem;
+    left: 0;
+}
+#one .bottom-oneico img{
+	height: 5.06rem;
+    width: 1.52rem;
+}
+#one .bottom-twoico{
+	position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
+#one .bottom-twoico img{
+	width: 1.92rem;
+    height: 5.02rem;
+}
+#one .bottom-threeico{
+	position: absolute;
+    top: 0.5rem;
+    left: 4.8rem;
+}
+#one .bottom-threeico img{
+	width: 1.92rem;
+    height: 5.02rem;
+}
+#one .bottom-fourico{
+	position: absolute;
+    right: 0;
+    top: 1.5rem;
+}
+#one .bottom-fourico img{
+	height: 5.88rem;
+    width: 1.92rem;
+}
+#one .title{
+	position: absolute;
+    top: 3.92rem;
+    left: 0;
+    right: 0;
+}
+#one .title p:nth-child(1){
+	font-size: 28px;
+	color: white;
+}
+#one .title p:nth-child(2){
+	font-size: 13px;
+	color: white;
+	margin-top: 0.5rem;
+}
+#one .button{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 7.13rem;
+}
+#one .one-android{
+	width: 4.3rem;
+    height: 1.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#one .button .one-android img{
+	width: 100%;
+}
+#one .button .one-ios{
+	width: 4.3rem;
+    height: 1.4rem;
+     left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+#one .button .one-ios img{
+	width: 100%;
+}
+#one .iphone{
+	position: absolute;
+    bottom: -7px;
+}
+#one .iphone img{
+	width: 10rem;
+}
+/*第一屏结束*/
+/*第二屏开始*/
+.swiper-wrapper #two{
+	position: relative;
+}
+.two-TopRight{
+	position: absolute;
+    top: 0.9rem;
+    right: 0;
+}
+.three-TopRight{
+	position: absolute;
+    top: 0.9rem;
+    left: 0;
+}
+.six-TopRight{
+	position: absolute;
+    top: 0.9rem;
+    right: 0;
+}
+.seven-TopRight{
+	position: absolute;
+    top: 0rem;
+    left: 0;
+}
+.eight-TopRight{
+	position: absolute;
+    top: 0.9rem;
+    right: 0;
+}
+.two-TopRight img{
+	width: 2.02rem;
+    height: 2.88rem;
+}
+.three-TopRight img{
+	width: 2.02rem;
+    height: 2.88rem;
+}
+.six-TopRight img{
+	width: 2.02rem;
+    height: 2.88rem;
+}
+.seven-TopRight img{
+	width: 3.9rem;
+	height: 5.56rem;
+}
+..eight-TopRight img{
+	width: 2.02rem;
+    height: 2.88rem;
+}
+.two-top{
+	position: absolute;
+    top: 2.4rem;
+}
+.two-top p:nth-child(1){
+	font-size: 23px;
+	font-weight: bold;
+}
+[data-dpr="2"] .two-top p:nth-child(1){
+    font-size: 44px;
+}
+[data-dpr="3"] .two-top p:nth-child(1){
+    font-size: 60px;
+}
+.two-top p:nth-child(2){
+	font-size: 17px;
+    margin-top: 1rem;
+}
+.two-bottom{
+	position: absolute;
+	top: 7.08rem;
+}
+.two-bottom img{
+	width: 9.36rem;
+    height: 8.26rem;
+}
+/*第二屏结束*/
+/*第四屏开始*/
+.swiper-wrapper #four{
+	position: relative;
+}
+.four-TopRight{
+	position: absolute;
+    top: 1rem;
+    left: 0;
+}
+.four-TopRight img{
+	width: 2.02rem;
+    height: 2.88rem;
+}
+.four-TopRighttwo{
+	position: absolute;
+    top: 1rem;
+    right: 0;
+}
+.four-TopRighttwo img{
+	width: 4.88rem;
+    height: 3.5rem;
+}
+.four-top{
+	position: absolute;
+    top: 2.4rem;
+}
+.four-top p:nth-child(1){
+	font-size: 23px;
+	font-weight: bold;
+}
+[data-dpr="2"] .two-top p:nth-child(1){
+    font-size: 44px;
+}
+[data-dpr="3"] .two-top p:nth-child(1){
+    font-size: 60px;
+}
+.four-top p:nth-child(2){
+	font-size: 19px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+.four-top p:nth-child(3){
+	font-size: 17px;
+    margin-top: 0.5rem;
+}
+.four-bottom{
+	position: absolute;
+	top: 7.08rem;
+}
+.four-bottom img{
+	width: 9.36rem;
+    height: 10.08rem;
+}
+/*第四屏结束*/
+/*第九屏开始*/
+.swiper-wrapper #nine{
+	position: relative;
+}
+.nine-topOne{
+	position: absolute;
+    top: 1rem;
+    left: 0;
+}
+.nine-topOne img{
+	width: 2.95rem;
+    height: 2.9rem;
+}
+.nine-toptwo{
+	position: absolute;
+    top: 1rem;
+    right: 0;
+}
+.nine-toptwo img{
+	width: 5.15rem;
+    height: 3.52rem;
+}
+.nine-center{
+	position: absolute;
+    top: 2.4rem;
+}
+.nine-center p:nth-child(1){
+	font-size: 23px;
+	font-weight: bold;
+}
+[data-dpr="2"] .nine-center p:nth-child(1){
+    font-size: 44px;
+}
+[data-dpr="3"] .nine-center p:nth-child(1){
+    font-size: 60px;
+}
+.nine-bottomOne{
+	width: 10rem;
+}
+.nine-node{
+	background: url(../img/nine-oneicon.png) no-repeat;
+    width: 5rem;
+    height: 6.64rem;
+    background-size: contain;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+}
+.nine-node p:nth-child(1){
+	position: absolute;
+    font-size: 0.5rem;
+    left: 1.5rem;
+    top: 2.9rem;
+    font-weight: bold;
+}
+.nine-node p:nth-child(2){
+	top: 4rem;
+    position: absolute;
+    font-size: 0.4rem;
+    width: 3.25rem;
+    left: 0.9rem;
+}
+.nine-nodeTwo{
+	background: url(../img/nine-twoicon.png) no-repeat;
+    width: 5rem;
+    height: 6.64rem;
+    background-size: contain;
+    position: absolute;
+    top: 5rem;
+    right: 0;
+}
+.nine-nodeTwo p:nth-child(1){
+	position: absolute;
+    font-size: 0.5rem;
+    left: 1.5rem;
+    top: 2.9rem;
+    font-weight: bold;
+}
+.nine-nodeTwo p:nth-child(2){
+	top: 4rem;
+    position: absolute;
+    font-size: 0.4rem;
+    width: 3.25rem;
+    left: 0.9rem;
+}
+.nine-nodebox{
+	background: url(../img/nine-threeicon.png) no-repeat;
+    width: 5rem;
+    height: 6.64rem;
+    background-size: contain;
+    position: absolute;
+    top: 11rem;
+    left: 0;
+}
+.nine-nodebox p:nth-child(1){
+	position: absolute;
+    font-size: 0.5rem;
+    left: 1.5rem;
+    top: 2.9rem;
+    font-weight: bold;
+}
+.nine-nodebox p:nth-child(2){
+	top: 4rem;
+    position: absolute;
+    font-size: 0.4rem;
+    width: 3.25rem;
+    left: 0.9rem;
+}
+.nine-nodeboxtwo{
+	background: url(../img/nine-fouricon.png) no-repeat;
+    width: 5rem;
+    height: 6.64rem;
+    background-size: contain;
+    position: absolute;
+    top: 11rem;
+    right: 0;
+}
+.nine-nodeboxtwo p:nth-child(1){
+	position: absolute;
+    font-size: 0.5rem;
+    left: 1.5rem;
+    top: 2.9rem;
+    font-weight: bold;
+}
+.nine-nodeboxtwo p:nth-child(2){
+	top: 4rem;
+    position: absolute;
+    font-size: 0.4rem;
+    width: 3.25rem;
+    left: 0.9rem;
+}
+/*第九屏结束*/
+/*第十屏开始*/
+.developer-Title{
+   height: 1.6rem;
+    line-height: 1.6rem;
+}
+.developer-Title p{
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+}
+.developer-navigation{
+	width: 7.33rem;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.border{
+	background: #3891F1;
+	color: white!important;
+}
+.developer-centerBottomLi{
+	height: 12rem;
+}
+.developer-navigation li:nth-child(1){
+	width: 3.2rem;
+    height: 1.06rem;
+    line-height: 1.06rem;
+    border-radius: 0.5rem;
+    color:black;
+    border: 1px solid #3891F1;
+}
+.developer-navigation li:nth-child(2){
+	width: 3.2rem;
+    height: 1.06rem;
+    line-height: 1.06rem;
+    border-radius: 0.5rem;
+    color:black;
+   border: 1px solid #3891F1;
+}
+.developer-center{
+	margin-top: 1.2rem;
+}
+.developer-botomLeft p{
+	box-sizing: border-box;
+	width: 7.77rem;
+    font-size: 0.42rem;
+    line-height: 0.6rem;
+    margin: auto;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+.developer-botomLeft a{
+	text-decoration: none;
+    color: white;
+    width: 3.2rem;
+    height: 0.85rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    display: block;
+    background: linear-gradient(to bottom, #6AC4F9 0%,#3891F1 100%);
+}
+.developer-botomLeftw a{
+	text-decoration: none;
+    color: white;
+    width: 3.2rem;
+    height: 0.85rem;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 0.8rem;
+    border-radius: 0.5rem;
+    margin: auto;
+    display: block;
+    background: linear-gradient(to bottom, #6AC4F9 0%,#3891F1 100%);
+}
+.developer-botomLeftw p:nth-child(1){
+	box-sizing: border-box;
+	width: 7.77rem;
+    font-size: 0.42rem;
+    line-height: 0.6rem;
+    margin: auto;
+    padding-top: 0.8rem;
+}
+.developer-botomLeftw p:nth-child(2){
+	box-sizing: border-box;
+	width: 7.77rem;
+    font-size: 0.42rem;
+    line-height: 0.6rem;
+    margin: auto;
+    padding-top: 0.3rem;
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+.developer-botomright img{
+	width: 7.44rem;
+    height: 7.7rem;
+    margin-top: 0.5rem;
+}
+.bottomright-img{
+	width: 7.5rem;
+	height: 6.38rem;
+}
+/*申请开发者开启您的商业模式结束*/
+/*第十屏结束*/
+/*第十一屏开始*/
+#eleven p{
+	position: absolute;
+    top: 2.5rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.eleven-img img:nth-child(1){
+	position: absolute;
+    width: 4.70rem;
+    height: 0.88rem;
+    left: 0.55rem;
+    top: 6rem;
+}
+.eleven-img img:nth-child(2){
+	position: absolute;
+    width: 3.48rem;
+    height: 1.4rem;
+    right: 0.55rem;
+    top: 5.5rem;
+}
+.eleven-imgtwo img:nth-child(1){
+	position: absolute;
+    width: 4.70rem;
+    height: 1.36rem;
+    left: 0.55rem;
+    top: 9rem;
+}
+.eleven-imgtwo img:nth-child(2){
+	position: absolute;
+    width: 3.09rem;
+    height: 1.4rem;
+    right: 0.55rem;
+    top: 9rem;
+}
+.eleven-imgthree img:nth-child(1){
+	position: absolute;
+    width: 4.70rem;
+    height: 1.06rem;
+    left: 0.55rem;
+    top: 13rem;
+}
+.eleven-imgthree img:nth-child(2){
+	position: absolute;
+    width: 3.46rem;
+    height: 1.04rem;
+    right: 0.5rem;
+    top: 12.9rem;
+}
+/*第十一屏结束*/
+.swiper-button-next{
+    position: absolute;
+    width: 1.52rem;
+    height: 1.52rem;
+    background: url(../img/icon-button.png);
+    background-size: 1.52rem 1.52rem;
+    /*animation: run 2s linear infinite;*/
+    top:87vh;
+}
+@keyframes run {
+    from{
+        top: 17rem;
+        opacity: 0;
+    }
+    to{
+        top: 15rem;
+        opacity: 1;
+    }
+}
